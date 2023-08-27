@@ -1,0 +1,256 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rigi</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+<body>
+    <div class="navbar bg-white fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-logo">Logo </a>
+            <div class="d-inline">
+                <a href="#" class="option ml-3">Join community</a>
+                <a href="#" class="option ml-3">Contact us</a>
+            </div>
+        </div>
+    </div>
+    
+    <section class="container-fluid custom-bg py-5 mt-5 mb-5">
+        <div class="container">
+            <div class="row equal-height">
+                <!-- Left Column for Details -->
+                <div class="col-md-6 p-5 d-flex flex-column justify-content-center ">
+                    <h2>Hack your wealth journey inside the 1% club</h2>
+                    <p>A super premium annual subscription that will transform your wealth planning and make you say “Bro! I am financially sorted!”</p>
+                    <div class="d-flex justify-content-center mt-4">
+                        <button class="btn-round">Join the community</button>
+                    </div>
+                </div>
+    
+                <!-- Right Column for Photo -->
+                <div class="col-md-6 p-3 d-flex justify-content-center align-items-center">
+                    <img src="{% static '/img/pngwing.com.png' %}" alt="man in office" class="img-fluid stretch-image shadow" >
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <!-- Title -->
+        <p class="text-center mb-2 feature-in-title">Featured in</p>
+    
+        <!-- Company names -->
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <span class="distinct-name distinct-name-alpha">Forbes</span>
+            </div>
+            <div class="col-md-4 text-center">
+                <span class="distinct-name distinct-name-bravo">The Economic Times</span>
+            </div>
+            <div class="col-md-4 text-center">
+                <span class="distinct-name distinct-name-charlie">mint</span>
+            </div>
+        </div>
+    
+        <div class="row mt-1 ">
+            <div class="col-md-6 text-center">
+                <span class="distinct-name distinct-name-delta">The Times Of india</span>
+            </div>
+            <div class="col-md-6 text-center">
+                <span class="distinct-name distinct-name-echo">Forbes</span>
+            </div>
+        </div>
+
+        <p class="text-center mb-2 mt-4 about-me-title">About Me</p>
+        <h2 class="about-me-details">Entrepreneur, Content creator, Finance Influencer</h2>
+        
+        <img src="{% static '/img/boyss.jpg' %}" alt="boy" class="about-me-image">
+        
+        <p class="about-me-text">Hi, I'm Finance With Sharan. I am a former management consultant at KPMG and PwC where I worked with banks and NBFCs to help them make a ton of money.</p>
+        <p class="about-me-text">I now work as a full-time content creator and help the common man make a ton of money.</p>
+        <p class="about-me-text">I create engaging personal finance content with a blend of comedic flavor and cosplay on Instagram and YouTube. I also write down highly action oriented posts on LinkedIn and Twitter for those who are not on social media platforms and prefer to read it instead.</p>
+        
+        <div class="favicons mt-4 mb-4">
+            <img src="{% static '/img/fb.png' %}" alt="fb">
+            <img src="{% static '/img/ins.png' %}" alt="fb">
+            <img src="{% static '/img/fb.png' %}" alt="fb">
+            <img src="{% static '/img/yo.png' %}" alt="fb">
+            <img src="{% static '/img/fb.png' %}" alt="fb">
+        </div>
+    </section>
+    <section class="service-section container my-5">
+        <div class="text-center">
+            <p class="text-center mb-2 mt-4 service-title">Services</p>
+            <h2 class="service-detail mb-4">Start your journey towards financial freedom</h2>
+            <button class="service-btn">Community</button>
+            <button class="service-btn">Courses</button>
+            <button class="service-btn">Consultation</button>
+        </div>
+    
+        <div class="row mt-5 align-items-stretch">
+            <!-- First Column with text and bullet points -->
+            <div class="col-md-6 p-5 d-flex flex-column justify-content-center">
+                <h3>The 1% Club</h3>
+                <p>Now, I'm on a mission to help you get to the RICHEST 1% - one educational finance content at a time.</p>
+                
+                <ul class="service-list">
+                    <li>Exclusive 1 on 1 interaction with the creator</li>
+                    <li>Connect with like minded folks, from diverse backgrounds and cities</li>
+                    <li>32+ Hours of Investing Tutorials, Tools and Community</li>
+                </ul>
+                
+                <button class="service-btn mt-2">Join the community</button>
+            </div>
+    
+            <!-- Second Column with an image -->
+            <div class="col-md-6 p-3 d-flex justify-content-center align-items-center">
+                <img src="{% static '/img/man.jpg' %}" alt="smile" class="service-image">
+            </div>
+            
+        </div>
+        
+    </section>
+    <div class="d-flex justify-content-center mb-4">
+        <button class="service-btn">Community</button>
+        <button class="service-btn">Courses</button>
+        <button class="service-btn">Consultation</button>
+    </div>
+    
+    <div class="container mt-5">
+        <div class="row">
+    
+            <!-- First Column -->
+            <div class="col-md-4">
+                <div class = "column-box mb-4">
+                    <img src="{% static '/img/boy.jpg' %}" alt="Description of Image 1" class="img-fluid mb-3 column-image">
+                    <h4>The 1% course</h4>
+                    <p>Now, I'm on a mission to help you get to the RICHEST 1% - one educational finance content at a time.</p>
+                    <button class="btn btn-custom btn-block mt-2">Buy the course @ ₹3,999</button>
+                </div>
+            </div>
+    
+            <!-- Second Column -->
+            <div class="col-md-4">
+                <div class = "column-box mb-4">
+                    <img src="{% static '/img/boy.jpg' %}" alt="Description of Image 2" class="img-fluid mb-3 column-image">
+                    <h4>The 1% course</h4>
+                    <p>Now, I'm on a mission to help you get to the RICHEST 1% - one educational finance content at a time.</p>
+                    <button class="btn btn-custom btn-block mt-2">Buy the course @ ₹3,999</button>
+                </div>
+            </div>
+    
+            <!-- Third Column -->
+            <div class="col-md-4">
+                <div class = "column-box mb-4">
+                    <img src="{% static '/img/boy.jpg' %}" alt="Description of Image 3" class="img-fluid mb-3 column-image">
+                    <h4>The 1% course</h4>
+                    <p>Now, I'm on a mission to help you get to the RICHEST 1% - one educational finance content at a time.</p>
+                    <button class="btn btn-custom btn-block mt-2">Buy the course @ ₹3,999</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <div class="d-flex justify-content-center mb-4">
+        <button class="service-btn">Community</button>
+        <button class="service-btn">Courses</button>
+        <button class="service-btn">Consultation</button>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+    
+            <!-- First Column -->
+            <div class="col-md-4">
+                <div class = "column-box mb-4">
+                    <img src="{% static '/img/cal.png' %}" alt="Description of Image 1" class="img-fluid mb-3 column-image mt-4 ml-4">
+                    <h4>SCO vs HEA Dream11 Team Prediction | Dream11</h4>
+                    <button class="btn btn-custom btn-block mt-2">View details</button>
+                </div>
+            </div>
+    
+            <!-- Second Column -->
+            <div class="col-md-4">
+                <div class = "column-box mb-4">
+                    <img src="{% static '/img/gm.png' %}" alt="Description of Image 2" class="img-fluid mb-3 column-image mt-4 ml-4">
+                    <h4>SCO vs HEA Dream11 Team Prediction | Dream11</h4>
+                    <button class="btn btn-custom btn-block mt-2">View details</button>
+                </div>
+            </div>
+    
+            <!-- Third Column -->
+            <div class="col-md-4">
+                <div class = "column-box mb-4">
+                    <img src="{% static '/img/cal.png' %}" alt="Description of Image 3" class="img-fluid mb-3 column-image mt-4 ml-4">
+                    <h4>SCO vs HEA Dream11 Team Prediction | Dream11</h4>
+                    <button class="btn btn-custom btn-block mt-2">View details</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <footer class="bg-primary">
+        <!-- First section -->
+        <div class="footer-section mt-4">
+            <p>Get the app in one click!</p>
+            <h2>Hack your wealth journey inside the 1% club</h2>
+            <div class="d-flex justify-content-center mt-4">
+                <button class="btn-round">Join the community</button>
+            </div>
+            
+        </div>
+    
+        <!-- Second section - Contact Us -->
+        <div class="footer-section">
+            <p>Contact Us</p>
+            <h2>Do you have any queries, feel free to reach out to us</h2>
+            <div class="row">
+                <div class="col">
+                    <img src="{% static '/img/cal.png' %}" alt="Icon description">
+                    <h3>Email us</h3>
+                    <p>Support@gmail.com</p>
+                </div>
+                <div class="col">
+                    <img src="{% static '/img/wp.png' %}" alt="Icon description">
+                    <h3>We are available on Whatsapp</h3>
+                    <p>Click to Whatsapp</p>
+                </div>
+                <div class="col">
+                    <img src="{% static '/img/cal.png' %}" alt="Icon description">
+                    <h3>Call for sales & Support</h3>
+                    <p>+91-8460068722</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Third section - Logo and favicons -->
+        <div class="footer-section">
+            <div class="favicons mt-4 mb-4 ml-2 mr-2">
+                <img src="{% static '/img/fb.png' %}" alt="fb">
+                <img src="{% static '/img/ins.png' %}" alt="fb">
+                <img src="{% static '/img/fb.png' %}" alt="fb">
+                <img src="{% static '/img/yo.png' %}" alt="fb">
+                <img src="{% static '/img/fb.png' %}" alt="fb">
+            </div>
+            <!-- Your favicons -->
+            
+            <div class="row">
+                <div class="col-md-4 text-center">© 2023 companyname. inc.</div>
+                <div class="col-md-4 text-center">Privacy Policy</div>
+                <div class="col-md-4 text-center">Terms of services</div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
